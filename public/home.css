@@ -1,0 +1,79 @@
+body{
+    background-color: linen;
+    height: 100vh;
+    display: inline-block;
+    margin-bottom: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.DivSubInformation{
+    position: fixed;
+    display: inline;
+    margin-left: 75vw;
+    padding: 5px;
+    width: 15em;
+    height: 15em;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:cornflowerblue;
+}
+.CenterHorTop{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+span{
+    display: flex;
+    margin: auto;
+    border: 2px solid lightslategray;
+    border-radius: 20px;
+}
+.Description{
+    display: flex;
+ 
+
+ width: fit-content;
+ height: fit-content;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+}
+hr{
+    margin-top:10px;
+    
+    border-color: black;
+}
+.post{
+    display:block;
+    margin: auto;
+    margin-bottom: 2em;
+    background-color:cadetblue;
+    border: 2px solid darkblue;
+    width:50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+label{
+    display: block;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.Author{
+    display: block;
+    width: fit-content;
+    background-color:whitesmoke;
+    border: 1px solid lightslategray;
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

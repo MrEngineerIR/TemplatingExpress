@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <h1>  </h1>
+
+    <div class="DivSubInformation" id="SubDiv">
+        <label for="SubDiv" class="CenterHorTop"><%= Udata.name %></label>
+        <br>
+        <p class="CenterHorTop">&ThickSpace; Subscribes : <%= Udata.subscribers %></p>
+        <hr>
+        <p class="Description">Description: : <%= Udata.description %> </p>
+    </div>
+    
+    <% for(let i = 0 ; i < Udata.posts.length ;i++){ %>
+        <p class="post" id="posts"> <label for="posts" class="Author">Author : <%= Udata.posts[i].author %></label> <%= Udata.posts[i].title %>
+        <% if(Udata.posts[i].img){ %>
+            <img class="" src="<%= Udata.posts[i].img %>"  >
+        </p>    
+        <% } %>
+    <%  } %>
+</body>
+</html>
